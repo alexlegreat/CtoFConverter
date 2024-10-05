@@ -5,7 +5,7 @@ public class CtoF
         double fahrenheit = 0;
         double celsius = 0;
         String trash = "";
-        boolean farts = false;
+        boolean Celf = false;
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the temperature in Celsius ");
         do {
@@ -14,12 +14,12 @@ public class CtoF
                 celsius = in.nextDouble();
                 fahrenheit = celsius * 1.8 + 32;
                 System.out.println(" The temperature in Fahrenheit is %.2f " + fahrenheit);
-                farts = true;
+                Celf = true;
             } else {
                 trash = in.nextLine();
                 System.out.println("Please enter a valid number ");
             }
 
-        }while (!farts);;
+        }while (!Celf);;
     }
 }
